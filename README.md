@@ -2,6 +2,16 @@
 
 This is my [Udacity Machine Learning Engineer Nanodegree](https://www.udacity.com/course/machine-learning-engineer-nanodegree--nd009t) Capstone Project.
 
+I implemented a Named-Entity Recognition (NER) machine learning model to identify different parts in the
+description of an ingredient, in other words: when given "100 g flour", the model should recognize
+100 as quantity, g as unit of measurement and flour as ingredient name and label them as such.
+
+In the **docs** folder you'll find two documents:
+
+- **project-report**: A project report addressing the five major project development stages and detailed 
+  information about the implementation.
+- **proposal.pdf**: A project proposal addressing seven key points before starting developing of the project.
+
 ## Prerequisites
 
 - Python 3.6
@@ -61,11 +71,6 @@ Steps:
       since it will train the model from scratch, so take that into consideration.
     - You can then go through the notebook which will guide you through the implementation details.
     
-In the **docs** folder you'll find two documents:
-
-- **proposal.pdf**: A project proposal addressing seven key points before starting developing of the project.
-- **proposal**: A project report addressing the five major project development stages. 
-
 ## Contributing
 
 This project is for learning purposes, so contributing is not desired at the moment.
